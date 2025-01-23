@@ -4,6 +4,7 @@ import NewPage from './assets/pages/newpage';
 import Test from './assets/pages/test';
 import SMCQ from './assets/pages/smcq';
 import SMD from './assets/pages/smd';
+import Result from './assets/pages/result';
 
 const App: React.FC = () => {
 
@@ -20,7 +21,7 @@ const App: React.FC = () => {
           <Route path="/test" element={<Test />} />
           <Route path="/smcq" element={<SMCQ />} />
           <Route path="/smd" element={<SMD />} />
-
+          <Route path="/result" element={<Result />} />
         </Routes>
       </div>
     </BrowserRouter>

@@ -1,4 +1,4 @@
-/* SMCQ.css (SMD.css도 동일) */
+/* SMD.css */
 body, html {
   margin: 0;
   padding: 0;
@@ -7,8 +7,8 @@ body, html {
   background-color: #f8fff8;
 }
 
-/* smcq.css */
-.smcq-container {
+/* smd.css */
+.smd-container {
     width: 100%;
     min-height: 100vh;
     display: flex;
@@ -23,8 +23,8 @@ body, html {
     background-color: #c8e6c9;
     padding: 40px;
     border-radius: 25px;
-    width: 80%;
-    max-width: 1000px;
+    /* width: 80%;
+    max-width: 1000px; */
     margin-top: 20px;
   }
   
@@ -65,5 +65,25 @@ body, html {
   h2 {
     text-align: center;
     margin-bottom: 20px;
+  }
+  
+  .submit-section {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .submit-button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 40px;
+    border: none;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .submit-button:hover {
+    background-color: #45a049;
   }
   
